@@ -1,0 +1,30 @@
+{
+  "name": "eslint-dev-environment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "format": "prettier-eslint --write $PWD/'test.{js}' $PWD/'*.{js}'",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonschmitt/eslint-dev-environment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonschmitt/eslint-dev-environment/issues"
+  },
+  "homepage": "https://github.com/jasonschmitt/eslint-dev-environment#readme",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-standard": "^16.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier-eslint": "^11.0.0",
+    "prettier-eslint-cli": "^5.0.0"
+  },
+  "dependencies": {}
+}
